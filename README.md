@@ -44,8 +44,8 @@
 ### 📊 GitHub stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Sankey001&show_icons=true&hide_border=true&theme=transparent" alt="Sanket's GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sankey001&layout=compact&hide_border=true&theme=transparent" alt="Top languages">
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sankey001&theme=transparent" alt="Sanket's GitHub stats">
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Sankey001&theme=transparent" alt="Most-committed languages">
 </p>
 
 ### 📫 Reach me
