@@ -48,6 +48,36 @@
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Sankey001&theme=transparent" alt="Most-committed languages">
 </p>
 
+### 🎮 My contributions, gamified
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sankey001/Sankey001/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sankey001/Sankey001/output/github-snake.svg">
+  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Sankey001/Sankey001/output/github-snake.svg">
+</picture>
+
+<details>
+<summary><b>👾 More games: Pac-Man and Breakout</b></summary>
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sankey001/Sankey001/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sankey001/Sankey001/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Sankey001/Sankey001/output/pacman-contribution-graph.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sankey001/Sankey001/output/breakout-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sankey001/Sankey001/output/breakout-contribution-graph.svg">
+  <img alt="Breakout game played on my GitHub contribution graph" src="https://raw.githubusercontent.com/Sankey001/Sankey001/output/breakout-contribution-graph.svg">
+</picture>
+
+</details>
+
+<p>
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Sankey001&theme=transparent&utcOffset=5.5" alt="What time of day I commit">
+</p>
+
 ### 📫 Reach me
 
 <p>
