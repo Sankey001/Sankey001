@@ -19,6 +19,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      # Personal access token for the achievements panel; that step is skipped until it is added.
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
     steps:
       - name: Pac-Man and Breakout
         uses: abozanona/pacman-contribution-graph@v5.0.0
@@ -33,6 +36,40 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      - name: 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Copy 3D graphs
+        if: hashFiles('profile-3d-contrib/*.svg') != ''
+        run: |
+          cp profile-3d-contrib/profile-season-animate.svg dist/3d-contrib.svg
+          cp profile-3d-contrib/profile-night-rainbow.svg dist/3d-contrib-dark.svg
+
+      - name: Achievements panel
+        if: env.METRICS_TOKEN != ''
+        uses: lowlighter/metrics@v3.34
+        continue-on-error: true
+        with:
+          token: ${{ env.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: achievements.svg
+          output_action: none
+          use_prebuilt_image: yes
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+
+      - name: Copy achievements panel
+        if: env.METRICS_TOKEN != ''
+        run: sudo cp /metrics_renders/achievements.svg dist/ && sudo chown "$USER" dist/achievements.svg || echo "no achievements panel rendered"
 
       - name: List generated files
         run: ls -la dist

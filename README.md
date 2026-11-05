@@ -28,6 +28,21 @@
 | [**Healthcare Assistant Chatbot**](https://github.com/Sankey001/Healthcare-Assistant-Chatbot-Project) | AI guidance on symptoms, medications and appointments | Python · Streamlit |
 | [**Steganography-basics**](https://github.com/Sankey001/Steganography-basics) | Hiding data inside images, explained simply | Python |
 
+### 🎬 See them in action
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/Sankey001/ytGRAB"><img src="assets/ytgrab-demo.gif" alt="ytGRAB downloading three videos at once, each row filling its progress bar while the overall bar shows size, speed and time left"></a><br>
+      <b>ytGRAB</b>: three downloads at once, live progress
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/Sankey001/StreamRoom"><img src="assets/streamroom-demo.gif" alt="StreamRoom going from the start screen, to joining a meeting by ID, to a three-person call"></a><br>
+      <b>StreamRoom</b>: start, join by meeting ID, call
+    </td>
+  </tr>
+</table>
+
 ### 🛠️ Tech I use
 
 <p>
@@ -56,6 +71,12 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sankey001/Sankey001/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sankey001/Sankey001/output/github-snake.svg">
   <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Sankey001/Sankey001/output/github-snake.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sankey001/Sankey001/output/3d-contrib-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sankey001/Sankey001/output/3d-contrib.svg">
+  <img alt="My GitHub contributions as a 3D city of bars, with language and star stats" src="https://raw.githubusercontent.com/Sankey001/Sankey001/output/3d-contrib.svg">
 </picture>
 
 <details>
