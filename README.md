@@ -1,9 +1,7 @@
 <h1 align="center">Hi, I'm Sanket 👋</h1>
 
 <p align="center">
-  <b>Python developer building AI tools and security utilities</b><br>
-  OSINT · LLMs · Automation · Desktop apps<br>
-  <i>Running models locally, shipping code publicly.</i>
+  <img src="assets/typing.svg" alt="Python dev building AI tools & security utilities | OSINT · LLMs · Automation | Running models locally, shipping code publicly | Currently learning AI engineering from scratch">
 </p>
 
 ---
