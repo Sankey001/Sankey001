@@ -4,6 +4,10 @@
   <img src="assets/typing.svg" alt="Python dev building AI tools & security utilities | OSINT · LLMs · Automation | Running models locally, shipping code publicly | Currently learning AI engineering from scratch">
 </p>
 
+<p align="center">
+  <a href="https://commons.wikimedia.org/wiki/File:Beethoven_Moonlight_1st_movement.ogg" title="Listen: Beethoven, Piano Sonata No. 14, I. Adagio sostenuto (recording by piano-midi.de, CC BY-SA 2.0 DE)"><img src="https://img.shields.io/badge/%E2%99%AA%20Now%20playing-Moonlight%20Sonata%2C%20I.%20Adagio%20sostenuto%20%E2%80%94%20Beethoven-6E40C9?style=for-the-badge" alt="Now playing: Moonlight Sonata, 1st movement (click to listen)"></a>
+</p>
+
 ---
 
 ### 🧭 About me
